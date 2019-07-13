@@ -1,0 +1,288 @@
+/* STYLESHEET */
+:root{
+    --grey-color:#1D252C;
+}
+
+body {
+    font-family: 'Raleway', sans-serif; 
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 1.5em;
+    letter-spacing: -.2px;
+    text-transform: capitalize;
+    color: white;
+    margin: 0;
+}
+
+h1 strong{
+    color: #00adb5;
+}
+
+h2{
+    color: #00adb5;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+#hero {
+    height: 300px;
+    /* background-image: url('../img/ibm.jpg'); */
+    /* background-size: 500px 300px; */
+    /* background-repeat: no-repeat; */
+    /* background-position-x: right; */
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between !important;
+    overflow: hidden;
+}
+
+.hero_img {
+    width: 380px;
+    height: 297px;
+    object-fit: cover;
+}
+
+.portfolio {
+    background-color: #FAFAFA;
+    padding: 20px;
+}
+
+.project {
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+
+}
+
+.project_title {
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.project_course,
+.date,
+.url {
+    margin: 10px 0;
+
+}
+
+.project_attributes {
+    width: 500px;
+    height: 200px;
+}
+
+.project_image{
+    width: 250px;
+    height: 350px;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
+
+.menu {
+    height: inherit;
+}
+
+.header ul {
+    display: flex;
+    height: inherit;
+}
+
+.header ul li {
+    height: inherit;
+}
+
+.header a {
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding: 0 10px;
+}
+
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+figure {
+    margin: 0;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer p,
+footer div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer img{
+    vertical-align: middle;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.event {
+    /* border: 3px solid black; */
+    margin: 10px;
+    width: 480px;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+    background-color: #f4fbff;
+}
+
+.event_list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.event img {
+    width: 480px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.event_desc {
+    margin: 20px 40px;
+    background-color: white;
+    margin-top: -40px;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+
+.event_description {
+    text-align: left;
+}
+
+.description_url {
+    border: 1px solid;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: #00adb5;
+    border-radius: 5px;
+}
+
+.expertise {
+    margin-left: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: inherit;
+}
+
+.contact {
+   background-color: #00adb5; 
+   color: white;
+   height: 150px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.social {
+}
+
+.social_link {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+}
+
+.social_link.twitter {
+    background-image: url('../img/twitter.png');
+    background-size: 50px 50px;
+}
+
+.social_link.facebook {
+    background-image: url('../img/fb.png');
+    background-size: 50px 50px;
+}
+
+.social_link.github {
+    background-image: url('../img/gh.png');
+    background-size: 50px 50px;
+}
+
+section#trabajemosJuntos {
+    padding: 0 10px;
+}
+
+.form_contact input {
+    border-color: gray;
+    padding: 5px 20px 5px 25px;
+    background-image: url('../img/envelop.svg');
+    background-size: 25px 15px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: -1px;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+.form_contact button {
+    display: block;
+    margin-top: 10px;
+    background: transparent;
+    color: white;
+    padding: 7px 0;
+    border-radius: 5px;
+    border-color: white;
+    width: 85px;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
